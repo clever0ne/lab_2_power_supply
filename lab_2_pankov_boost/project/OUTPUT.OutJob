@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=OUTPUT.OutJob
 Description=
-TargetOutputMedium=Файлы производства
+TargetOutputMedium=Списки ЭРИ
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Xerox VersaLink
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -42,7 +42,7 @@ OutputDocumentPath1=
 OutputVariantName1=
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
-OutputEnabled1_OutputMedium2=2
+OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=0
 OutputEnabled1_OutputMedium5=0
@@ -76,7 +76,7 @@ OutputName2=Gerber
 OutputCategory2=Fabrication
 OutputDocumentPath2=
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=2
@@ -90,7 +90,7 @@ OutputName3=Сверловка
 OutputCategory3=Fabrication
 OutputDocumentPath3=
 OutputVariantName3=
-OutputEnabled3=1
+OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=1
@@ -133,7 +133,7 @@ OutputName6=Список ЭРИ на закупку
 OutputCategory6=Report
 OutputDocumentPath6=
 OutputVariantName6=
-OutputEnabled6=0
+OutputEnabled6=1
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=0
@@ -144,15 +144,15 @@ PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration6_Name1=ColumnNameFormat
 Configuration6_Item1=CaptionAsName
 Configuration6_Name2=General
-Configuration6_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Public\Documents\Altium\AD18\Templates\AD\Шаблоны\Список ЭРИ на плату.xls|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1915|FormHeight=767|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration6_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=D:\AltiumPreferences\templates\bom_pcb.xlsx|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1554|FormHeight=767|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration6_Name3=GroupOrder
 Configuration6_Item3=Наименование=True
 Configuration6_Name4=OutputConfigurationParameter1
 Configuration6_Item4=??????????
 Configuration6_Name5=VisibleOrder
-Configuration6_Item5=Описание=456|Наименование=177|Производитель=157|Корпус=139|Quantity=79|HelpURL=286
+Configuration6_Item5=Описание=456|Наименование=177|Производитель=157|Quantity=79
 Configuration6_Name6=VisibleOrder_Flat
-Configuration6_Item6=Описание=456|Наименование=177|Производитель=157|Корпус=139|Quantity=79|HelpURL=286
+Configuration6_Item6=Описание=456|Наименование=177|Производитель=157|Quantity=79
 OutputType7=BOM_PartType
 OutputName7=Монтаж
 OutputCategory7=Report
@@ -263,7 +263,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=1
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=D:\!projects\library\altium_preferences\templates\projects\1,5mm_18um_2layers_std\OUTPUT\Введите номер платы ContainerName\
+OutputFilePath3=D:\Projects\Altium Designer\lab_2_power_supply\lab_2_pankov_boost\project\OUTPUT\СПБПУ.3331506.019 ContainerName\
 ReleaseManaged3=0
 OutputBasePath3=OUTPUT\
 OutputPathMedia3==pcb_dec_number+' '+ContainerName
@@ -276,9 +276,9 @@ OutputFileNameMulti3==pcb_dec_number+'['+project+']'+'_'+CurrentDate+'('+Current
 UseOutputNameForMulti3=0
 OutputFileNameSpecial3=
 OpenOutput3=0
-OutputFilePath4=D:\!projects\fridger\schematics\shelf_controller\Project Outputs for shelf_controller\
+OutputFilePath4=D:\Projects\Altium Designer\lab_2_power_supply\lab_2_pankov_boost\project\Project Outputs for lab_2_pankov_boost\
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for 1,5mm_18um_2layers_std
+OutputBasePath4=Project Outputs for lab_2_pankov_boost
 OutputPathMedia4=
 OutputPathMediaValue4==Designation+ ' ' + OutputType
 OutputPathOutputer4=[Output Custom]
@@ -291,7 +291,7 @@ OutputFileNameSpecial4=
 OpenOutput4=1
 OutputFilePath5=D:\!projects\library\altium_preferences\templates\project_templates\1,5mm_18um_2layers_std\Project Outputs for 1,5mm_18um_2layers_std\
 ReleaseManaged5=1
-OutputBasePath5=Project Outputs for 1,5mm_18um_2layers_std
+OutputBasePath5=Project Outputs for lab_2_pankov_boost
 OutputPathMedia5=
 OutputPathMediaValue5=
 OutputPathOutputer5=[Output Type]
@@ -306,7 +306,7 @@ OpenOutput5=1
 [GeneratedFilesSettings]
 RelativeOutputPath2=D:\!projects\library\altium_preferences\templates\projects\1,5mm_18um_2layers_std\OUTPUT\Введите номер сборки Введите полное название схемы\
 OpenOutputs2=0
-RelativeOutputPath3=D:\!projects\library\altium_preferences\templates\projects\1,5mm_18um_2layers_std\OUTPUT\Введите номер платы ContainerName\
+RelativeOutputPath3=D:\Projects\Altium Designer\lab_2_power_supply\lab_2_pankov_boost\project\OUTPUT\СПБПУ.3331506.019 ContainerName\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
@@ -316,7 +316,7 @@ OpenGerberOutput3=0
 OpenNCDrillOutput3=0
 OpenIPCOutput3=0
 EnableReload3=0
-RelativeOutputPath4=D:\!projects\fridger\schematics\shelf_controller\Project Outputs for shelf_controller\
+RelativeOutputPath4=D:\Projects\Altium Designer\lab_2_power_supply\lab_2_pankov_boost\project\Project Outputs for lab_2_pankov_boost\
 OpenOutputs4=1
 AddToProject4=1
 TimestampFolder4=0
