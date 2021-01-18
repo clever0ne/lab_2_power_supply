@@ -28,73 +28,17 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for lab2_zasetskiy_buck
 LogFolderPath=
 ManagedProjectGUID=
-Template=D:\Altium\projects\library\altium_preferences\templates\1,5mm_18um_2layers_std\1,5mm_18um_2layers_std.PrjPCB
+Template=D:\УЧЁБА\Схемотехника\Библиотека\Altium Preferences\templates\1,5mm_35um_2layers_std\1,5mm_35um_2layers_std.PrjPCB
 IncludeDesignInRelease=0
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
-[Release]
-ReleaseTarget=1
-ReleaseFolderPath=[OutputPath]
-ReleaseZipPath=[OutputPath][ProjectName].zip
-
 [Document1]
-DocumentPath=..\..\..\library\Database_Students.DbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
-DocumentPath=lab2_kochurin_buck.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MGHWWDNT
-
-[Document3]
-DocumentPath=lab2_kochurin_buck.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=AJYPUSYH
-
-[Document4]
 DocumentPath=OUTPUT.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -111,61 +55,116 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document2]
+DocumentPath=lab2_zasetskiy_buck.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AJYPUSYH
+
+[Document3]
+DocumentPath=lab2_zasetskiy_buck.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MGHWWDNT
+
+[Document4]
+DocumentPath=..\..\..\Библиотека\Общая библиотека\library\pcb\c2012.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QKONJUEQ
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for lab2_zasetskiy_buck\СПБПУ.3331506.06 BOM\СПБПУ.3331506.06[lab2_zasetskiy_buck]_Список ЭРИ на закупку.xls
+DItemRevisionGUID=
+
 [Parameter1]
-Name=approver
-Value=Капустин
+Name=title_line_2
+Value=преобразователь
 
 [Parameter2]
-Name=check
-Value=Капустин
-
-[Parameter3]
-Name=designation
-Value=СПБПУ.3331506.013
-
-[Parameter4]
-Name=developer
-Value=Кочурин
-
-[Parameter5]
-Name=document_code
-Value=Э3
-
-[Parameter6]
-Name=document_type
-Value=Схема электрическая принципиальная
-
-[Parameter7]
-Name=letter
-Value=
-
-[Parameter8]
-Name=ncontr
-Value=
-
-[Parameter9]
-Name=pcb_dec_number
-Value=СПБПУ.3331506.013
-
-[Parameter10]
-Name=project
-Value=Понижающий преобразователь
-
-[Parameter11]
-Name=sheets_total
-Value=1
-
-[Parameter12]
-Name=title
-Value=Понижающий преобразователь
-
-[Parameter13]
 Name=title_line_1
 Value=Понижающий
 
+[Parameter3]
+Name=title
+Value=Понижающий преобразователь
+
+[Parameter4]
+Name=sheets_total
+Value=M
+
+[Parameter5]
+Name=project
+Value=Лабораторная работа №2
+
+[Parameter6]
+Name=pcb_dec_number
+Value=СПБПУ.3331506.06
+
+[Parameter7]
+Name=ncontr
+Value=
+
+[Parameter8]
+Name=letter
+Value=
+
+[Parameter9]
+Name=document_type
+Value=Схема электрическая принципиальная
+
+[Parameter10]
+Name=document_code
+Value=Э3
+
+[Parameter11]
+Name=developer
+Value=Засецкий
+
+[Parameter12]
+Name=designation
+Value=СПБПУ.3331506.06
+
+[Parameter13]
+Name=check
+Value=Капустин
+
 [Parameter14]
-Name=title_line_2
-Value=преобразователь
+Name=approver
+Value=Капустин
 
 [Configuration1]
 Name=Sources
@@ -176,26 +175,6 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
-
-[Configuration2]
-Name=Fabrication
-ParameterCount=0
-ConstraintFileCount=0
-ReleaseItemId=
-Variant=[No Variations]
-OutputJobsCount=0
-ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
-ConfigurationType=Fabrication
-
-[Configuration3]
-Name=Assembly
-ParameterCount=0
-ConstraintFileCount=0
-ReleaseItemId=
-Variant=[No Variations]
-OutputJobsCount=0
-ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
-ConfigurationType=Assembly
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
@@ -234,7 +213,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for lab2_zasetskiy_buck
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -853,36 +832,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
