@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for lab2_vodorezov_buck
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 Template=C:\Users\glebo\OneDrive\??????? ????\????? ? ????????\????????????\library mine\Altium preferences\templates\1,5mm_35um_2layers_std\1,5mm_35um_2layers_std.PrjPCB
@@ -89,65 +89,61 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for lab2_vodorezov_buck\СПБПУ.331506.002 BOM\СПБПУ.331506.002[lab2_vodorezov_buck]_Список ЭРИ на закупку.xls
-DItemRevisionGUID=
-
 [Parameter1]
-Name=title_line_2
-Value= преобразователь
+Name=approver
+Value=Капустин
 
 [Parameter2]
-Name=title_line_1
-Value= Понижающий 
-
-[Parameter3]
-Name=title
-Value=Понижающий преобразователь
-
-[Parameter4]
-Name=sheets_total
-Value=1
-
-[Parameter5]
-Name=project
-Value=Понижающий преобразователь
-
-[Parameter6]
-Name=pcb_dec_number
-Value=СПБПУ 331506.002
-
-[Parameter7]
-Name=ncontr
-Value=
-
-[Parameter8]
-Name=letter
-Value=
-
-[Parameter9]
-Name=document_type
-Value= Схема электрическая принципиальная
-
-[Parameter10]
-Name=document_code
-Value=Э3
-
-[Parameter11]
-Name=developer
-Value=Водорезов
-
-[Parameter12]
-Name=designation
-Value=СПБПУ.331506.002
-
-[Parameter13]
 Name=check
 Value=Капустин
 
+[Parameter3]
+Name=designation
+Value=СПБПУ.331506.002
+
+[Parameter4]
+Name=developer
+Value=Водорезов
+
+[Parameter5]
+Name=document_code
+Value=Э3
+
+[Parameter6]
+Name=document_type
+Value=Схема электрическая принципиальная
+
+[Parameter7]
+Name=letter
+Value=
+
+[Parameter8]
+Name=ncontr
+Value=
+
+[Parameter9]
+Name=pcb_dec_number
+Value=СПБПУ 331506.002
+
+[Parameter10]
+Name=project
+Value=Понижающий преобразователь
+
+[Parameter11]
+Name=sheets_total
+Value=1
+
+[Parameter12]
+Name=title
+Value=Понижающий преобразователь
+
+[Parameter13]
+Name=title_line_1
+Value=Понижающий
+
 [Parameter14]
-Name=approver
-Value=Капустин
+Name=title_line_2
+Value=преобразователь
 
 [Configuration1]
 Name=Sources
@@ -196,7 +192,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for lab2_vodorezov_buck
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -307,7 +303,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=OneNote for Windows 10
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]

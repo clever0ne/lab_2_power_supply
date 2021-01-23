@@ -89,10 +89,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for lab2_sokolov_boost\Design Rule Check - lab2_sokolov_boost.html
-DItemRevisionGUID=
-
 [Parameter1]
 Name=approver
 Value=Капустин

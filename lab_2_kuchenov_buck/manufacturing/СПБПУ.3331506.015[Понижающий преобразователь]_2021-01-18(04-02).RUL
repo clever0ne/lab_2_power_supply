@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: E:\Учеба\Altium\AltiumStudy\Projects\lab2_kuchenov_buck\lab2_kuchenov_buck.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=min_pad_ar_std|Scope=Board|Minimum=7.87
+RuleKind=MinimumAnnularRing|RuleName=min_via_ar_std|Scope=Board|Minimum=5.91
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=solder_mask_expansion_std|Scope=Board|Minimum=1.97
+RuleKind=Width|RuleName=width_35um_std|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=clearance_inner_35um_std|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=clearance_outer_35um_std|Scope=Board|Minimum=7.87

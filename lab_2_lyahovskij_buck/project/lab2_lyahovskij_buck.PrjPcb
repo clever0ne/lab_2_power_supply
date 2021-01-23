@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for lab2_lyahovskij_buck
 LogFolderPath=
 ManagedProjectGUID=
 Template=D:\Altium\Library\templates\1,5mm_18um_2layers_std\1,5mm_18um_2layers_std.PrjPCB
@@ -71,6 +71,44 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJYPUSYH
+
+[Document3]
+DocumentPath=..\..\..\..\..\Altium_BEng\library\sch\lm5576mh_nopb.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SERHFJUV
+
+[Document4]
+DocumentPath=OUTPUT.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for lab2_lyahovskij_buck\—œ¡œ”.3331506.018 BOM\—œ¡œ”.3331506.018[lab2_lyahovskij_buck]_—ÔËÒÓÍ ›–» Ì‡ Á‡ÍÛÔÍÛ.xlsx
+DItemRevisionGUID=
 
 [Parameter1]
 Name=approver
@@ -175,7 +213,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for lab2_lyahovskij_buck
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -286,7 +324,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP LaserJet 100 colorMFP M175nw (9D3F2B)
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]

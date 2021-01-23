@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for lab2_zasetskiy_buck
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 Template=D:\УЧЁБА\Схемотехника\Библиотека\Altium Preferences\templates\1,5mm_35um_2layers_std\1,5mm_35um_2layers_std.PrjPCB
@@ -39,23 +39,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=OUTPUT.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
 DocumentPath=lab2_zasetskiy_buck.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -72,7 +55,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJYPUSYH
 
-[Document3]
+[Document2]
 DocumentPath=lab2_zasetskiy_buck.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,82 +72,61 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MGHWWDNT
 
-[Document4]
-DocumentPath=..\..\..\Библиотека\Общая библиотека\library\pcb\c2012.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QKONJUEQ
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for lab2_zasetskiy_buck\СПБПУ.3331506.06 BOM\СПБПУ.3331506.06[lab2_zasetskiy_buck]_Список ЭРИ на закупку.xls
-DItemRevisionGUID=
-
 [Parameter1]
-Name=title_line_2
-Value=преобразователь
+Name=approver
+Value=Капустин
 
 [Parameter2]
-Name=title_line_1
-Value=Понижающий
-
-[Parameter3]
-Name=title
-Value=Понижающий преобразователь
-
-[Parameter4]
-Name=sheets_total
-Value=M
-
-[Parameter5]
-Name=project
-Value=Лабораторная работа №2
-
-[Parameter6]
-Name=pcb_dec_number
-Value=СПБПУ.3331506.06
-
-[Parameter7]
-Name=ncontr
-Value=
-
-[Parameter8]
-Name=letter
-Value=
-
-[Parameter9]
-Name=document_type
-Value=Схема электрическая принципиальная
-
-[Parameter10]
-Name=document_code
-Value=Э3
-
-[Parameter11]
-Name=developer
-Value=Засецкий
-
-[Parameter12]
-Name=designation
-Value=СПБПУ.3331506.06
-
-[Parameter13]
 Name=check
 Value=Капустин
 
+[Parameter3]
+Name=designation
+Value=СПБПУ.3331506.06
+
+[Parameter4]
+Name=developer
+Value=Засецкий
+
+[Parameter5]
+Name=document_code
+Value=Э3
+
+[Parameter6]
+Name=document_type
+Value=Схема электрическая принципиальная
+
+[Parameter7]
+Name=letter
+Value=
+
+[Parameter8]
+Name=ncontr
+Value=
+
+[Parameter9]
+Name=pcb_dec_number
+Value=СПБПУ.3331506.06
+
+[Parameter10]
+Name=project
+Value=Лабораторная работа №2
+
+[Parameter11]
+Name=sheets_total
+Value=M
+
+[Parameter12]
+Name=title
+Value=Понижающий преобразователь
+
+[Parameter13]
+Name=title_line_1
+Value=Понижающий
+
 [Parameter14]
-Name=approver
-Value=Капустин
+Name=title_line_2
+Value=преобразователь
 
 [Configuration1]
 Name=Sources
@@ -213,7 +175,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for lab2_zasetskiy_buck
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -324,7 +286,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
